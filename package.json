@@ -1,0 +1,25 @@
+{
+  "name": "debug-timezone",
+  "version": "1.0.0",
+  "description": "Wrapper around debug, which lets you specify timezone and date format for stdout",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/notgiorgi/node-debug-timezone.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "debug",
+    "log",
+    "timezone",
+    "date",
+    "format",
+    "debugger"
+  ],
+  "author": "Giorgi Bagdavadze <notgiorgi@gmail.com> (http://notgiorgi.com)",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.3.3",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.10"
+  }
+}
